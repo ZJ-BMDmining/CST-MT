@@ -4,7 +4,7 @@ In order to conduct reliable disease diagnosis for neurodegenerative disorder, t
 
 ## Architecture
 
-![](.\figures\Fig1_CST-MT-Framework.png)
+![Architecture](./figures/Fig1_CST-MT-Framework.png)
 
 ## Install
 
