@@ -31,26 +31,26 @@ First, download the required data sets from the PPMI, PDBP, and AMP-PD platforms
 
 ### MRI-processing
 
-1、Using FSL tools to decranialize MRI brain images.
+1. Using FSL tools to decranialize MRI brain images.
 
-2、Run MRI-preprocessing/datasets/process_MRI_nobrain.ipynb
+2. Run MRI-preprocessing/datasets/process_MRI_nobrain.ipynb
 
 ### Data-processing
 
-1、Run the processing/datasets/over_aligned.ipynb file to generate a sample-aligned data set and split the training set, validation set, and test set.
+1. Run the processing/datasets/over_aligned.ipynb file to generate a sample-aligned data set and split the training set, validation set, and test set.
 
-2、Run the processing/datasets/process_transpot.ipynb file to make full use of the data set that cannot be sample aligned as a single-modal training set.
+2. Run the processing/datasets/process_transpot.ipynb file to make full use of the data set that cannot be sample aligned as a single-modal training set.
 
-2、Run the processing/datasets/split_imagedata_nobrain.ipynb file to make full use of the data set that cannot be sample aligned as a single-modal training set.
+3. Run the processing/datasets/split_imagedata_nobrain.ipynb file to make full use of the data set that cannot be sample aligned as a single-modal training set.
 
 The obtained files are located under processed_data/datasets/
 
 ### Training
 
-1、Run the training/datasets/evaluation_transpot.ipynb file to get the blood transcriptomics model.
+1. Run the training/datasets/evaluation_transpot.ipynb file to get the blood transcriptomics model.
 
-2、Run the training/datasets/evaluation_2D_3slice.ipynb file to get the MRI model.
+2. Run the training/datasets/evaluation_2D_3slice.ipynb file to get the MRI model.
 
-3、Run the training/datasets/evaluation_aligned_balanced.ipynb file to get the Multi-modal model.
+3. Run the training/datasets/evaluation_aligned_balanced.ipynb file to get the Multi-modal model.
 
 The obtained files are located under models/datasets/
