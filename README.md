@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ## Data availability
 
-Whole-blood RNA-seq datasets that are related with PD were downloaded from the AMP-PD platform(\href{https://amp-pd.org/}{https://amp-pd.org/}) and is subject to access control. Individuals are required to register in order to access the benchmark datasets. Two group of MRI image data were obtained from Parkinson's Progression Markers Initiative (PPMI)(\href{https://www.ppmi-info.org/}{https://www.ppmi-info.org/}) and Parkinson's Disease Biomarkers Program (PDBP)(\href{https://pdbp.ninds.nih.gov/}{https://pdbp.ninds.nih.gov/}), respectively.
+Whole-blood RNA-seq datasets that are related with PD were downloaded from the AMP-PD platform({https://amp-pd.org/}) and is subject to access control. Individuals are required to register in order to access the benchmark datasets. Two group of MRI image data were obtained from Parkinson's Progression Markers Initiative (PPMI)({https://www.ppmi-info.org/}) and Parkinson's Disease Biomarkers Program (PDBP)({https://pdbp.ninds.nih.gov/}), respectively.
 
 ## Usage
 
